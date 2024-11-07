@@ -9,7 +9,7 @@ function LoginPage() {
       </div>
 
       <div className="section-right">
-        <h1 className="highlighted-title">
+        <h1 className="white-title">
           <span className="line-1">GDG on Campus</span>
           <span className="line-2">: Seoultech</span>
         </h1>

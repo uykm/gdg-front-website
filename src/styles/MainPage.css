@@ -35,7 +35,7 @@ h3 {
     margin-top: 50px; /* 원하는 마진 값 */
 }
 
-.highlighted-text {
+.white-text {
     color: #FFFFFF;
     background-color: transparent; /* 배경색 투명하게 설정 */
     padding: 0px 20px; /* 텍스트 주변 여백 */
