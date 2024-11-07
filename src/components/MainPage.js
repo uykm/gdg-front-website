@@ -10,7 +10,7 @@ function MainPage() {
   // JSON 데이터를 가져오는 함수
   // MainPage.js
   useEffect(() => {
-    fetch("/users.json")
+    fetch("https://api-test-gdsc-22b48e20369e.herokuapp.com/api/data")
       .then((response) => response.json())
       .then((data) => setUsers(data))
       .catch((error) => console.error("Failed to load user data:", error));
