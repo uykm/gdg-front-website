@@ -56,9 +56,9 @@ function LoginPage() {
                         />
                     </InputGroup>
                     <ButtonGroup>
-                        <Button onClick={handleLogin}>로그인</Button>
+                        <Button onClick={handleLogin}>LOGIN</Button>
                         <Button onClick={() => navigate("/signup")}>
-                            회원가입
+                            SIGN UP
                         </Button>
                     </ButtonGroup>
                 </Form>
@@ -177,7 +177,9 @@ const Button = styled.button`
     border: none;
     border-radius: 10px;
     background-color: #D9DBFF;
-    font-size: 20px;
+    font-size: 20px; /* 텍스트 크기 */
+    font-weight: bold; /* 텍스트 굵기 */
+    color: white; /* 텍스트 색상 */
     cursor: pointer;
 
     &:hover {

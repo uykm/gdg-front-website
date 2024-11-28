@@ -69,14 +69,14 @@ function SignUp() {
                             handleSignup();
                         }}
                     >
-                        회원가입
+                        SIGN UP
                     </Button>
                     <Button
                         onClick={() => {
                             navigate("/login");
                         }}
                     >
-                        돌아가기
+                        BACK
                     </Button>
                 </LoginContainer>
             </RightWrap>
@@ -94,7 +94,7 @@ const Wrapper = styled.div`
 `;
 
 const LeftWrap = styled.div`
-    flex: 1;
+    flex: 0.7;
     background: linear-gradient(to bottom, #6285dd, #bdc0ff);
     display: flex;
     align-items: center;
